@@ -1,1 +1,4 @@
+/* Run in command */
+
+
 bcp "select * from Table_Order where ORDER_DATE ='2023-01-01'" queryout "d:\Order.csv" -q -S 10.100.102.197 -U{your user id} -P "{your user name}" -c -t, -C 65001
